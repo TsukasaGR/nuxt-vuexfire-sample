@@ -8,10 +8,6 @@ export const state = () => ({
   items: []
 })
 
-export const mutations = {
-  ...firebaseMutations
-}
-
 export const getters = {
   items: state => {
     return state.items
